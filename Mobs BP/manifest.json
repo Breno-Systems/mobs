@@ -1,1 +1,28 @@
-
+{
+    "format_version": 2,
+    "header": {
+        "name": "Mobs BP",
+        "description": "Behavior Pack do addon Mobs",
+        "uuid": "2b9e31a6-da74-419d-97fe-ca601666856d",
+        "version": [1,0,0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "a2462906-e78f-4773-9875-a3889d7ca5e5",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "0fb8b97e-e958-4d0e-90da-befb2d29d512",
+            "version":[1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {"uuid":"e6ae3550-1bfc-4bed-bca8-3d66d105e1fe", "version": [1, 0, 0]},
+        {"module_name": "@minecraft/server", "version": "1.11.0 "}
+    ]
+}

@@ -1,1 +1,20 @@
-
+{
+    "format_version": 2,
+    "header": {
+        "name": "Mobs RP",
+        "description": "Resource Pack do addon Mobs",
+        "uuid": "e6ae3550-1bfc-4bed-bca8-3d66d105e1fe",
+        "version": [1,0,0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "1f65a1a1-4767-4de0-9a2b-2c8f9fffbfe8",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {"uuid":"", "version": [1, 0, 0]}
+    ]
+}
