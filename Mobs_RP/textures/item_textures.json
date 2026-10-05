@@ -1,1 +1,9 @@
-
+{
+    "resource_pack_name": "Mobs RP",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "capsule": {
+            "textures": "textures/items/capsule"
+        }
+    }
+}
