@@ -1,1 +1,12 @@
+# Sistema
+.DS_Store
+Thumbs.db
 
+# Builds
+*.mcaddon
+*.mcpack
+*.zip
+
+# Editor
+.vscode/
+*.log
