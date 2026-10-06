@@ -7,15 +7,17 @@
                 "category": "equipment"
             }
         },
+
         "components": {
-            "minecraft:icon": {
-                "texture": "capsule"
-            },
+
+            "minecraft:icon": "capsule",
             "minecraft:display_name": {
                 "value": "item.mobs:capsule"
             },
             "minecraft:max_stack_size": 16,
             "minecraft:hand_equipped": true
         }
+
     }
+
 }
